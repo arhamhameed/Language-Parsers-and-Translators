@@ -1,0 +1,13 @@
+S -> NP VP
+VP -> VP PP | V NP | V NP PP | V PP
+PP -> P NP
+NM -> NM PP | N NM | N
+NP -> P | N | N C N | P C N | N C P | P C P | AR A NM | AR NM
+P -> 'from' | 'to' | 'over' | 'down' | 'with'
+AR -> 'a' | 'an' | 'this' | 'the'
+N -> 'Argentina' | 'Pakistan' | 'Arham' | 'street' | 'tea' | 'laptop' | 'mountains' | 'Himalayas' | 'bike' | 'lake'
+V -> 'drove' | 'drank' | 'jumped' | 'ran' | 'fought'
+A ->  'fast' | 'hot' | 'magnificent' | 'aesthetic' | 'dirty'
+P -> 'me' | 'I' | 'we' | 'you' | 'they' | 'it' | 'us' | 'he'
+C -> 'and' | 'but' | 'or'
+PR -> 'from' | 'to' | 'over' | 'down' | 'in'
